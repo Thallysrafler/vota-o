@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Votação CIPA</title>
+      <meta http-equiv = "refresh" content = "15; url = https://intranet" />
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            .header {
+                width: 100%;
+            }
+            .header {
+                position: -webkit-sticky; /* Necessário para funcionar no Safari */
+                position: sticky;
+                top: 0;
+            }
+            .menu {
+		font-family:Arial, Helvetica, sans-serif;
+                background-color: #Ea5500;
+                text-align: center;
+            }
+            .resultado {
+		font-family:Arial, Helvetica, sans-serif;
+                background-color: #fffffff;
+                text-align: center;
+            }
+            .menu ul li {
+                display: inline-block;
+            }
+            .menu ul li a {
+                display: block;
+                color: #FFFFFF;
+                padding: 10px 12px;
+                border-bottom:2px solid #Ea5500;
+            }
+            .main {
+                padding: 50px 0;
+            }
+            .content {
+                width: 80%;
+                margin: auto;
+                padding: 30px;
+                background-color: #eff0f1;
+                height: 1100px;
+            }
+            .content h1 {
+                margin-bottom: 30px;
+            }
+            .footer {
+                background-color: #eff0f1;
+                text-align: center;
+                padding: 50px 0;
+            }
+            .menu ul li a:hover {
+                background-color:#D6D655;
+                color: #6D6D6D;
+                border-bottom:2px solid #ff0000;
+	.linha {
+  		display: table;
+  		margin: 5px;
+ 	 	}
+
+	.img  {
+		width: 100px;
+	    	height: 100px;	
+	    	border: solid 3px #000;
+	  	float: left;
+		}
+
+	.texto_img {
+		  width: 100px;
+	  	height: 100px;
+	  	line-height:100px; 
+	  	float: left;
+		}  
+	
+	.celula {
+		float: left;
+	  	margin: 2px;
+	  	}
+
+	.legenda {
+		text-align: center;
+	  	width: 100px;
+	  	}
+        </style>
+   </head>
+   <body>
+        <header class="header">
+            <nav class="menu">
+                <ul>
+                    <li>
+	        	<a href="http://intranet"><img src="../intranet/img/home.png" width="30" height="30" class="d-inline-block align-top" alt="">
+          		Home
+          		</a>
+                    </li>
+                    <li>
+                        <a href="http://intranet/glpi"><img src="../intranet/img/helpdesk.png" width="30" height="30" class="d-inline-block align-top" alt="">
+			Helpdesk</a>
+                    </li>
+                    <li>
+                        <a href="http://intranet/moodle"><img src="../intranet/img/ead.png" width="30" height="30" class="d-inline-block align-top" alt="">
+			Cursos EAD</a>
+                    </li>
+                    <li>
+                        <a href="http://pacs.hospital.resplendor"><img src="../intranet/img/x-ray.png" width="30" height="30" class="d-inline-block align-top" alt="">
+			Pacs</a>
+                    </li>
+                    <li>
+                        <a href="http://intranet/votacao"><img src="../intranet/img/votar.png" width="30" height="30" class="d-inline-block align-top" alt="">
+			Votação CIPA</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+		<div class="resultado">
+		<img src="img/Resultado Votacao.png" width="1300" height="700" alt"">
+		</div>
+   </body>
+</html>
